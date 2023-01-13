@@ -8,9 +8,8 @@
 * 18 sayısı dizinin en son basamağından bir önce yerleştirildiği için Worst Case'e yakındır ama Average Case senaryosu kapsamına girer.
 ##  Big O Notation
 - İşlem sayısı n, n-1, n-2...1 şeklinde olacağından, işlem sayısı toplamı n.(n+1)/2; dominant faktörü n²'dir. O(n²)
-- 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
-- En küçüğü bulup baştaki elemanla yer değiştirerek çalıştığı için;
+En küçüğü bulup baştaki elemanla yer değiştirerek çalıştığı için;
 * 2 ile 7 yer değişecek. [2,3,5,8,7,9,4,15,6] 
 * 2-3 sıralı denk geldi, 4 ile 5 yer değişecek. 
 * [2,3,4,8,7,9,5,15,6] 5 ile 8 yer değişecek. [2,3,4,5,7,9,8,15,6]
